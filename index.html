@@ -25,7 +25,8 @@
 
 <body class="sofia min-h-[100vh] flex flex-col justify-between mx-auto">
     <header class="flex justify-center items-center py-4 lg:max-w-[1920px] md:max-w-[768px] max-w-[90vw] mx-auto">
-        <h1 class="lg:text-7xl md:text-7xl text-5xl font-extrabold text-transparent bg-gradient-to-r from-orange-400 to-green-400 bg-clip-text">
+        <h1
+            class="lg:text-7xl md:text-7xl text-5xl font-extrabold text-transparent bg-gradient-to-r from-orange-400 to-green-400 bg-clip-text">
             Daily Tasbih</h1>
     </header>
     <main class="lg:max-w-[1920px] md:max-w-[768px] max-w-[90vw] mx-auto">
@@ -35,15 +36,17 @@
                     <h2
                         class="card-title text-4xl font-bold text-transparent bg-gradient-to-r from-pink-600 to-yellow-600 bg-clip-text">
                         Subhan Allah</h2>
-                    <p class="text-7xl text-transparent bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text">0</p>
+                    <p id="count1"
+                        class="text-7xl text-transparent bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text">0
+                    </p>
                     <div class="flex justify-center items-center gap-4">
                         <div class="card-actions justify-center">
-                            <button
+                            <button id="count1Plus"
                                 class="text-white btn bg-green-600 rounded-full lg:hover:bg-green-400 lg:active:bg-green-400"><i
                                     class="fa-solid fa-plus"></i></button>
                         </div>
                         <div class="card-actions justify-center">
-                            <button
+                            <button id="count1Minus"
                                 class="text-white  btn bg-red-600 rounded-full lg:hover:bg-red-400 lg:active:bg-red-400"><i
                                     class="fa-solid fa-minus"></i></button>
                         </div>
@@ -55,15 +58,17 @@
                     <h2
                         class="card-title text-4xl font-bold text-transparent bg-gradient-to-r from-pink-600 to-yellow-600 bg-clip-text">
                         Alhamdulilah</h2>
-                    <p class="text-7xl text-transparent bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text">0</p>
+                    <p id="count2"
+                        class="text-7xl text-transparent bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text">0
+                    </p>
                     <div class="flex justify-center items-center gap-4">
                         <div class="card-actions justify-center">
-                            <button
+                            <button id="count2Plus"
                                 class="text-white btn bg-green-600 rounded-full lg:hover:bg-green-400 lg:active:bg-green-400"><i
                                     class="fa-solid fa-plus"></i></button>
                         </div>
                         <div class="card-actions justify-center">
-                            <button
+                            <button id="count2Minus"
                                 class="text-white  btn bg-red-600 rounded-full lg:hover:bg-red-400 lg:active:bg-red-400"><i
                                     class="fa-solid fa-minus"></i></button>
                         </div>
@@ -75,15 +80,17 @@
                     <h2
                         class="card-title text-4xl font-bold text-transparent bg-gradient-to-r from-pink-600 to-yellow-600 bg-clip-text">
                         Astagfirullah</h2>
-                    <p class="text-7xl text-transparent bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text">0</p>
+                    <p id="count3"
+                        class="text-7xl text-transparent bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text">0
+                    </p>
                     <div class="flex justify-center items-center gap-4">
                         <div class="card-actions justify-center">
-                            <button
+                            <button id="count3Plus"
                                 class="text-white btn bg-green-600 rounded-full lg:hover:bg-green-400 lg:active:bg-green-400"><i
                                     class="fa-solid fa-plus"></i></button>
                         </div>
                         <div class="card-actions justify-center">
-                            <button
+                            <button id="count3Minus"
                                 class="text-white  btn bg-red-600 rounded-full lg:hover:bg-red-400 lg:active:bg-red-400"><i
                                     class="fa-solid fa-minus"></i></button>
                         </div>
@@ -95,15 +102,17 @@
                     <h2
                         class="card-title text-4xl font-bold text-transparent bg-gradient-to-r from-pink-600 to-yellow-600 bg-clip-text">
                         Allahuakber</h2>
-                    <p class="text-7xl text-transparent bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text">0</p>
+                    <p id="count4"
+                        class="text-7xl text-transparent bg-gradient-to-r from-cyan-600 to-purple-600 bg-clip-text">0
+                    </p>
                     <div class="flex justify-center items-center gap-4">
                         <div class="card-actions justify-center">
-                            <button
+                            <button id="count4Plus"
                                 class="text-white btn bg-green-600 rounded-full lg:hover:bg-green-400 lg:active:bg-green-400"><i
                                     class="fa-solid fa-plus"></i></button>
                         </div>
                         <div class="card-actions justify-center">
-                            <button
+                            <button id="count4Minus"
                                 class="text-white  btn bg-red-600 rounded-full lg:hover:bg-red-400 lg:active:bg-red-400"><i
                                     class="fa-solid fa-minus"></i></button>
                         </div>
@@ -113,7 +122,9 @@
         </section>
         <section class="my-8">
             <div class="card-actions justify-center">
-                <button class="text-white text-xl font-semibold  btn bg-orange-600 rounded-full lg:hover:bg-orange-400 lg:active:bg-orange-400">RESET ALL</button>
+                <button id="countReset"
+                    class="text-white text-xl font-semibold  btn bg-orange-600 rounded-full lg:hover:bg-orange-400 lg:active:bg-orange-400">RESET
+                    ALL</button>
             </div>
         </section>
     </main>
